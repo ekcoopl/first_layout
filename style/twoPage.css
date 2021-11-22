@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans:wght@300&display=swap');
+nav {
+    min-width: 100%;
+    min-height: 65px;
+    border-bottom: 3px solid hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+.panel {
+    width: 30%;
+    color: #48555B;
+    display: flex;
+    justify-content: space-between;
+}
+.our_story{
+    max-width: 941px;
+    min-height: 344px;
+      
+}
+.text__ourStory{
+    width: 100%;
+    margin: 57px auto 57px auto;
+    text-align: center;
+    font-family: OpenSans;
+    letter-spacing: 5px;
+    color: #48555B;
+    font-size: 18px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.base_text{
+    
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+}
+.base_text>h2{
+    font-size: 23px;
+    font-family: 'OpenSans';
+    margin-bottom: 30px;
+    letter-spacing: 0.1875px;
+    text-align: justify;
+    color: #48555B;
+    
+}
+.base_text>p{
+    font-size: 18x;
+    font-family: 'OpenSans';
+    color: #48555B;
+    text-align: justify;
+}
+.base_text>span{
+    display: inline-block;
+    min-width: 20px;
+    color: #16ACE8;
+}
+.imagine_product{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.cart_1{
+    color: white;
+    width: 140px;
+    min-width: 140px;
+    height: 224px;
+    min-height: 224px;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 20px 65px 175px 15px;
+    background-image: url(/first_project/image/Bitmap.png);
+}
+.cart_2{
+    color: white;
+    width: 140px;
+    height: 224px;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 20px 65px 175px 15px;
+    background-image:url(/first_project/image/Bitmap\ 2.png)
+}
+.cart_3{
+    color: white;
+    width: 140px;
+    height: 224px;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 20px 65px 175px 15px;
+    background-image:url(/first_project/image/Bitmap\ 3.png)
+}
+.content_oblick{
+    width: 100%;
+    margin-top: 85px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.content_left{
+    width: 30%;
+}
+.content_center{
+    width: 30%;
+}
+.content_right{
+    width: 15%;
+}

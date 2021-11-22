@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(/first_project/fonts/BebasNeue-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+.content{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 2810px;
+    
+}
+header{
+    
+    min-height: 100vh;
+    min-width: 100vh;   
+    background-image: url("/first_project/image/bgr.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.top{
+    margin-top: 42px;
+    margin-bottom: 71px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.firstText{
+    color: #fff;
+    font-size: 60px;
+    font-family: BebasNeue;
+    letter-spacing: 7px;
+}
+.secondText{
+    font-size: 16px;
+    padding-top: 0px;  
+    color: #fff;
+    font-family: 'Mochiy Pop P One';
+}
