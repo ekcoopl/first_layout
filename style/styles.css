@@ -1,6 +1,6 @@
 @font-face {
     font-family: "BebasNeue";
-    src: url(/first_project/fonts/BebasNeue-Regular.ttf);
+    src: url(/fonts/BebasNeue-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
@@ -20,7 +20,7 @@ header{
     
     min-height: 100vh;
     min-width: 100vh;   
-    background-image: url("/first_project/image/bgr.png");
+    background-image: url("/image/bgr.png");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
