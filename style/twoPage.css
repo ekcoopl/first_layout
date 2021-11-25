@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans:wght@1000&display=swap');
+
 main {
     display: flex;
     flex-direction: column;
@@ -58,7 +59,7 @@ main {
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 2.30625px;
-    
+
 
 }
 
@@ -186,6 +187,115 @@ main {
     letter-spacing: 0.1875px;
     line-height: 23px;
     font-size: 13px;
+}
+
+
+.wantTObuild {
+    min-width: 100vw;
+    min-height: 498px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: 115px;
+    background-image: url(/image/city.png);
+    font-family: 'Open Sans';
+    color: #48555B;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+
+}
+
+.wantTObuild>button {
+    width: 150px;
+    height: 40px;
+    margin-top: 35px;
+    color: white;
+    font-size: 13px;
+    background-color: #00A4E5;
+    border: none;
+    outline: none
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.newsletter {
+    padding: 35px 0;
+    max-width: 940px;
+    width: 940px;
+    font-size: 22px;
+    height: 100px;
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+}
+
+.mail>input {
+    width: 250px;
+    height: 40px;
+}
+
+.mail>button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 13px;
+    background-color: #00A4E5;
+    border: none;
+    outline: none
+}
+
+.floor{
+    width: 100%;
+    height: 240px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 41px;
+    font-family: 'Open Sans';
+    padding-left: 249px;
+    padding-right: 276px;
 
 
 }
+
+li{
+    list-style-type: none;
+}
+.blockLeft{
+    width: 350px;
+}
+.otstups{
+    margin: 20px 0 17px 0;
+}
+
+.blockCenter{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blockRight{
+    width: 350px;
+    
+}
+
