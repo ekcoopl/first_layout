@@ -13,11 +13,10 @@
 .content{
     box-sizing: border-box;
     width: 100%;
-    min-height: 2810px;
     
 }
+
 header{
-    
     min-height: 100vh;
     min-width: 100vh;   
     background-image: url("/image/bgr.png");
